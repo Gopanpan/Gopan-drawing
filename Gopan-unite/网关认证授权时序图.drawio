@@ -1,0 +1,162 @@
+<mxfile host="app.diagrams.net" modified="2020-10-26T02:41:02.939Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="81VIlW53v-9vXUqUr2ze" version="13.6.6" type="github">
+  <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-26" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="90" y="510" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-27" value="网关" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="100" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#FFFFFF;" vertex="1" parent="TTe2G5oilSCbtVJDa9s6-27">
+          <mxGeometry x="45" y="280" width="10" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#FFFFFF;" vertex="1" parent="TTe2G5oilSCbtVJDa9s6-27">
+          <mxGeometry x="55" y="340" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-47" value="２－２、请求校验" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="TTe2G5oilSCbtVJDa9s6-46" parent="TTe2G5oilSCbtVJDa9s6-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="320" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-61" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#FFFFFF;" vertex="1" parent="TTe2G5oilSCbtVJDa9s6-27">
+          <mxGeometry x="55" y="410" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-62" value="２－３、网关内部业务处理" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="TTe2G5oilSCbtVJDa9s6-61" parent="TTe2G5oilSCbtVJDa9s6-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="390" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-63" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#FFFFFF;" vertex="1" parent="TTe2G5oilSCbtVJDa9s6-27">
+          <mxGeometry x="55" y="570" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-64" value="２－６、校验是否需要认证" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="TTe2G5oilSCbtVJDa9s6-63" parent="TTe2G5oilSCbtVJDa9s6-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="550" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-28" value="业务系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="480" y="240" width="100" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#FFFFFF;" vertex="1" parent="TTe2G5oilSCbtVJDa9s6-28">
+          <mxGeometry x="45" y="110" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-39" value="１－１、启动获取需要认证的请求接口" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="TTe2G5oilSCbtVJDa9s6-38" parent="TTe2G5oilSCbtVJDa9s6-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="90" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-67" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#FFFFFF;" vertex="1" parent="TTe2G5oilSCbtVJDa9s6-28">
+          <mxGeometry x="45" y="640" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-69" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#FFFFFF;" vertex="1" parent="TTe2G5oilSCbtVJDa9s6-28">
+          <mxGeometry x="55" y="670" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-70" value="２－８、业务处理" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="TTe2G5oilSCbtVJDa9s6-69" parent="TTe2G5oilSCbtVJDa9s6-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="650" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-33" value="２－１、用户请求" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" edge="1" target="TTe2G5oilSCbtVJDa9s6-32" parent="1" source="TTe2G5oilSCbtVJDa9s6-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185" y="360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-36" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;网关请求验证授权时序图&lt;/b&gt;&lt;/font&gt;" style="html=1;rounded=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="155" y="100" width="750" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-37" value="存储系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="805" y="240" width="105" height="910" as="geometry" />
+        </mxCell>
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#FFFFFF;" vertex="1" parent="TTe2G5oilSCbtVJDa9s6-37">
+          <mxGeometry x="45" y="145" width="10" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-43" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#FFFFFF;" vertex="1" parent="TTe2G5oilSCbtVJDa9s6-37">
+          <mxGeometry x="55" y="185" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-44" value="１－３、保存认证请求接口地址数据" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="TTe2G5oilSCbtVJDa9s6-43" parent="TTe2G5oilSCbtVJDa9s6-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="165" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#FFFFFF;" vertex="1" parent="TTe2G5oilSCbtVJDa9s6-37">
+          <mxGeometry x="45" y="450" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-58" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#FFFFFF;" vertex="1" parent="TTe2G5oilSCbtVJDa9s6-37">
+          <mxGeometry x="55" y="480" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-59" value="２－５、获取指定业务系统需要认证的ＵＲＬ地址数据" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="TTe2G5oilSCbtVJDa9s6-58" parent="TTe2G5oilSCbtVJDa9s6-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="460" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-42" value="１－２、发送认证请求接口ＵＲＬ地址数据" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;exitX=1.5;exitY=0.9;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="TTe2G5oilSCbtVJDa9s6-41" parent="1" source="TTe2G5oilSCbtVJDa9s6-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="385" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-51" value="２－４、获取需要认证的接口数据" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" edge="1" target="TTe2G5oilSCbtVJDa9s6-50" parent="1">
+          <mxGeometry x="-0.0325" y="10" relative="1" as="geometry">
+            <mxPoint x="260" y="690" as="sourcePoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-60" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="770" as="sourcePoint" />
+            <mxPoint x="260" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-68" value="２－７、请求业务系统" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" edge="1" target="TTe2G5oilSCbtVJDa9s6-67" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="880" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-72" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="790" as="sourcePoint" />
+            <mxPoint x="510" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-73" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="790" as="sourcePoint" />
+            <mxPoint x="510" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TTe2G5oilSCbtVJDa9s6-74" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="950" as="sourcePoint" />
+            <mxPoint x="260" y="950" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
