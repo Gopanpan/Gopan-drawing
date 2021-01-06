@@ -1,26 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2021-01-06T06:30:57.213Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="ndlCInLkfRYeAs9-QWL-" version="14.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-06T06:51:09.144Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="yhz0--e8dU5plyfgkW2K" version="14.1.4" type="github">
   <diagram name="Page-1" id="b5b7bab2-c9e2-2cf4-8b2a-24fd1a2a6d21">
-    <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1840" dy="1676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="WtQ7W6KIaJNHw_MIKX0l-13" value="teamviewer&#xa;client" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fillColor=#FFE6CC;" vertex="1" parent="1">
-          <mxGeometry x="100" y="-820" width="100" height="50" as="geometry" />
+        <mxCell id="pt-x4_sm98buI33GJzMz-9" value="&lt;b&gt;teamviewer service&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="-580" width="100" height="510" as="geometry" />
         </mxCell>
-        <mxCell id="WtQ7W6KIaJNHw_MIKX0l-14" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
-          <mxGeometry x="260" y="-940" width="340" height="290" as="geometry" />
+        <mxCell id="pt-x4_sm98buI33GJzMz-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#CCFF99;" vertex="1" parent="pt-x4_sm98buI33GJzMz-9">
+          <mxGeometry x="45" y="50" width="10" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="WtQ7W6KIaJNHw_MIKX0l-15" value="Collect API" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fillColor=#B3FF66;" vertex="1" parent="1">
-          <mxGeometry x="300" y="-890" width="100" height="50" as="geometry" />
+        <mxCell id="pt-x4_sm98buI33GJzMz-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#CCFF99;" vertex="1" parent="pt-x4_sm98buI33GJzMz-9">
+          <mxGeometry x="55" y="190" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WtQ7W6KIaJNHw_MIKX0l-16" value="Store data" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fillColor=#CCFF99;" vertex="1" parent="1">
-          <mxGeometry x="300" y="-781" width="100" height="50" as="geometry" />
+        <mxCell id="pt-x4_sm98buI33GJzMz-29" value="4&amp;nbsp;解析入库API接口数据" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="pt-x4_sm98buI33GJzMz-28" parent="pt-x4_sm98buI33GJzMz-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="170" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="170" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="WtQ7W6KIaJNHw_MIKX0l-17" value="test case" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fillColor=#CCFF99;" vertex="1" parent="1">
-          <mxGeometry x="480" y="-890" width="100" height="50" as="geometry" />
+        <mxCell id="pt-x4_sm98buI33GJzMz-10" value="teamviewer client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#66FF66;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-584" width="100" height="534" as="geometry" />
         </mxCell>
-        <mxCell id="WtQ7W6KIaJNHw_MIKX0l-18" value="service config" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fillColor=#CCFF99;" vertex="1" parent="1">
-          <mxGeometry x="480" y="-781" width="100" height="50" as="geometry" />
+        <mxCell id="pt-x4_sm98buI33GJzMz-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#CCFF99;" vertex="1" parent="pt-x4_sm98buI33GJzMz-10">
+          <mxGeometry x="45" y="74" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pt-x4_sm98buI33GJzMz-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#CCFF99;" vertex="1" parent="pt-x4_sm98buI33GJzMz-10">
+          <mxGeometry x="50" y="104" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pt-x4_sm98buI33GJzMz-21" value="2&amp;nbsp;解析源码，提取接口API文档数据" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="pt-x4_sm98buI33GJzMz-20" parent="pt-x4_sm98buI33GJzMz-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="84" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="84" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pt-x4_sm98buI33GJzMz-16" value="1&amp;nbsp;获取接口API数据" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=1.2;exitY=0.077;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="pt-x4_sm98buI33GJzMz-15" parent="1" source="pt-x4_sm98buI33GJzMz-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-50" y="-510" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pt-x4_sm98buI33GJzMz-17" value="3&amp;nbsp;返回接口API数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="pt-x4_sm98buI33GJzMz-15" parent="1" target="pt-x4_sm98buI33GJzMz-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-50" y="-434" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
