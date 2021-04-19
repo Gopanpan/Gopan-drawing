@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-19T10:29:36.560Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="Hf0hTT86SVsa3CBky1pk" version="14.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-19T10:32:44.614Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="rZrzkilPd8HWeJb2w8bq" version="14.6.1" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1022" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -8,19 +8,28 @@
           <mxGeometry x="240" width="370" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KGN7WheUU5ocgR0QFIUr-1" value="渠道" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="130" y="120" width="100" height="490" as="geometry" />
+          <mxGeometry x="60" y="120" width="100" height="490" as="geometry" />
         </mxCell>
         <mxCell id="KGN7WheUU5ocgR0QFIUr-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="KGN7WheUU5ocgR0QFIUr-1">
           <mxGeometry x="45" y="70" width="10" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="KGN7WheUU5ocgR0QFIUr-5" value="请求登陆授权" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="KGN7WheUU5ocgR0QFIUr-1">
+        <mxCell id="KGN7WheUU5ocgR0QFIUr-5" value="请求登陆授权" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.367;entryY=0.055;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="KGN7WheUU5ocgR0QFIUr-1" target="KGN7WheUU5ocgR0QFIUr-8">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="60" y="80" as="sourcePoint" />
             <mxPoint x="220" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="KGN7WheUU5ocgR0QFIUr-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="KGN7WheUU5ocgR0QFIUr-1">
+          <mxGeometry x="45" y="310" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KGN7WheUU5ocgR0QFIUr-26" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="KGN7WheUU5ocgR0QFIUr-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="330" as="sourcePoint" />
+            <mxPoint x="60" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="KGN7WheUU5ocgR0QFIUr-2" value="gateway" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="120" width="100" height="490" as="geometry" />
+          <mxGeometry x="340" y="120" width="100" height="490" as="geometry" />
         </mxCell>
         <mxCell id="KGN7WheUU5ocgR0QFIUr-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="KGN7WheUU5ocgR0QFIUr-2">
           <mxGeometry x="45" y="70" width="10" height="170" as="geometry" />
@@ -62,13 +71,30 @@
         <mxCell id="KGN7WheUU5ocgR0QFIUr-15" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="540" y="350" as="sourcePoint" />
-            <mxPoint x="370" y="350" as="targetPoint" />
+            <mxPoint x="400" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KGN7WheUU5ocgR0QFIUr-17" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+        <mxCell id="KGN7WheUU5ocgR0QFIUr-18" value="H5页面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="120" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="KGN7WheUU5ocgR0QFIUr-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="KGN7WheUU5ocgR0QFIUr-18">
+          <mxGeometry x="45" y="225" width="10" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="KGN7WheUU5ocgR0QFIUr-20" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="KGN7WheUU5ocgR0QFIUr-18">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="350" y="350" as="sourcePoint" />
-            <mxPoint x="190" y="350" as="targetPoint" />
+            <mxPoint x="190" y="230" as="sourcePoint" />
+            <mxPoint x="60" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KGN7WheUU5ocgR0QFIUr-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="KGN7WheUU5ocgR0QFIUr-18">
+          <mxGeometry x="50" y="270" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KGN7WheUU5ocgR0QFIUr-24" value="业务处理" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="KGN7WheUU5ocgR0QFIUr-23" parent="KGN7WheUU5ocgR0QFIUr-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="250" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="250" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
